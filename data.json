@@ -1,0 +1,50 @@
+[{
+  "name": "Hanif",
+  "penghasilan": "2",
+  "pekerjaan": "wiraswasta",
+  "sikap": "berkelakuan baik",
+  "kepemilikan": "kontrak",
+  "kredit": "layak" 
+}, {
+  "name": "Intan",
+  "penghasilan": "1",
+  "pekerjaan": "honorer",
+  "sikap": "berkelakuan baik",
+  "kepemilikan": "pribadi",
+  "kredit": "layak"
+}, {
+  "name": "Joko",
+  "penghasilan": "4",
+  "pekerjaan": "wiraswasta",
+  "sikap": "bermasalah",
+  "kepemilikan": "kontrak",
+  "kredit": "tidak layak"
+}, {
+  "name": "Kurnia",
+  "penghasilan": "1",
+  "pekerjaan": "honorer",
+  "sikap": "berkelakuan baik",
+  "kepemilikan": "kontrak",
+  "kredit": "tidak layak"
+}, {
+  "name": "Lukman",
+  "penghasilan": "2",
+  "pekerjaan": "karyawan tetap",
+  "sikap": "bermasalah",
+  "kepemilikan": "pribadi",
+  "kredit": "tidak layak"
+}, {
+  "name": "Mery",
+  "penghasilan": "2",
+  "pekerjaan": "karyawan tetap",
+  "sikap": "bermasalah",
+  "kepemilikan": "kontrak",
+  "kredit": "tidak layak"
+}, {
+  "name": "Nugi",
+  "penghasilan": "1",
+  "pekerjaan": "wiraswasta",
+  "sikap": "bermasalah",
+  "kepemilikan": "pribadi",
+  "kredit": "tidak layak"
+}]
