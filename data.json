@@ -1,4 +1,53 @@
 [{
+  "name": "Andi",
+  "penghasilan": "5",
+  "pekerjaan": "karyawan tetap",
+  "sikap": "bermasalah",
+  "kepemilikan": "pribadi",
+  "kredit": "layak" 
+}, {
+  "name": "Budi",
+  "penghasilan": "5",
+  "pekerjaan": "karyawan tetap",
+  "sikap": "berkelakuan baik",
+  "kepemilikan": "pribadi",
+  "kredit": "layak" 
+}, {
+  "name": "Cindy",
+  "penghasilan": "4",
+  "pekerjaan": "wiraswasta",
+  "sikap": "bermasalah",
+  "kepemilikan": "kontrak",
+  "kredit": "layak" 
+}, {
+  "name": "Dony",
+  "penghasilan": "5",
+  "pekerjaan": "honorer",
+  "sikap": "berkelakuan baik",
+  "kepemilikan": "pribadi",
+  "kredit": "layak" 
+}, {
+  "name": "Eka",
+  "penghasilan": "2",
+  "pekerjaan": "wiraswasta",
+  "sikap": "bermasalah",
+  "kepemilikan": "pribadi",
+  "kredit": "layak" 
+}, {
+  "name": "Fina",
+  "penghasilan": "1",
+  "pekerjaan": "wiraswasta",
+  "sikap": "berkelakuan baik",
+  "kepemilikan": "kontrak",
+  "kredit": "layak" 
+}, {
+  "name": "Galih",
+  "penghasilan": "5",
+  "pekerjaan": "honorer",
+  "sikap": "berkelakuan baik",
+  "kepemilikan": "pribadi",
+  "kredit": "layak" 
+}, {
   "name": "Hanif",
   "penghasilan": "2",
   "pekerjaan": "wiraswasta",
