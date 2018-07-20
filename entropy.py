@@ -9,15 +9,24 @@ def getEntropy(data):
   total = 0
   for count in result.keys():
     total += result[count]
-  total_entryopy = 0
+  total_entropy = 0
+  for status in result:
+    if result[status] == 0:
+      return total_entropy
   for count in result.keys():
-    total_entryopy += ( (-result[count] / total) * ( log(result[count] / total, 2)))
-  return total_entryopy
+    total_entropy += ( (-result[count] / total) * ( log(result[count] / total, 2)))
+  return total_entropy
 
 def collection(data):
   total_entropy = 0
   total_data = 0
   total_key = 0
+  ## CHECK ENTROPY
+  for key in data:
+    for status in data[key]['kredit']:
+      if data[key]['kredit'][status] == 0:
+        return total_entropy
+  
   ## GET TOTAL COUNT
   for key in data:
     total_data += data[key]['count']
