@@ -6,7 +6,6 @@ def getEntropy(data):
       result[data[i]['kredit']] += 1
     else:
       result[data[i]['kredit']] = 1
-  
   total = 0
   for count in result.keys():
     total += result[count]
@@ -14,3 +13,6 @@ def getEntropy(data):
   for count in result.keys():
     total_entryopy += ( (-result[count] / total) * ( log(result[count] / total, 2)))
   return total_entryopy
+
+def collection(data):
+  return 'hello'
