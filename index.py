@@ -31,9 +31,9 @@ def decision(data, target):
   return prediction
 
 target = {
-    "penghasilan": "7",
+    "penghasilan": ">3x angsuran",
     "pekerjaan": "honorer",
-    "sikap": "bermasalah",
+    "sikap": "berkelakuan baik",
     "kepemilikan": "kontrak",
 }
 print(decision(data, target))

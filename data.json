@@ -1,97 +1,97 @@
 [{
   "name": "Andi",
-  "penghasilan": "5",
+  "penghasilan": ">3x angsuran",
   "pekerjaan": "karyawan tetap",
   "sikap": "bermasalah",
   "kepemilikan": "pribadi",
   "kredit": "layak" 
 }, {
   "name": "Budi",
-  "penghasilan": "5",
+  "penghasilan": ">3x angsuran",
   "pekerjaan": "karyawan tetap",
   "sikap": "berkelakuan baik",
   "kepemilikan": "pribadi",
   "kredit": "layak" 
 }, {
   "name": "Cindy",
-  "penghasilan": "4",
+  "penghasilan": ">3x angsuran",
   "pekerjaan": "wiraswasta",
   "sikap": "bermasalah",
   "kepemilikan": "kontrak",
   "kredit": "layak" 
 }, {
   "name": "Dony",
-  "penghasilan": "5",
+  "penghasilan": ">3x angsuran",
   "pekerjaan": "honorer",
   "sikap": "berkelakuan baik",
   "kepemilikan": "pribadi",
   "kredit": "layak" 
 }, {
   "name": "Eka",
-  "penghasilan": "2",
+  "penghasilan": "<3x angsuran",
   "pekerjaan": "wiraswasta",
   "sikap": "bermasalah",
   "kepemilikan": "pribadi",
   "kredit": "layak" 
 }, {
   "name": "Fina",
-  "penghasilan": "1",
+  "penghasilan": "<3x angsuran",
   "pekerjaan": "wiraswasta",
   "sikap": "berkelakuan baik",
   "kepemilikan": "kontrak",
   "kredit": "layak" 
 }, {
   "name": "Galih",
-  "penghasilan": "5",
+  "penghasilan": ">3x angsuran",
   "pekerjaan": "honorer",
   "sikap": "berkelakuan baik",
   "kepemilikan": "pribadi",
   "kredit": "layak" 
 }, {
   "name": "Hanif",
-  "penghasilan": "2",
+  "penghasilan": "<3x angsuran",
   "pekerjaan": "wiraswasta",
   "sikap": "berkelakuan baik",
   "kepemilikan": "kontrak",
   "kredit": "layak" 
 }, {
   "name": "Intan",
-  "penghasilan": "1",
+  "penghasilan": "<3x angsuran",
   "pekerjaan": "honorer",
   "sikap": "berkelakuan baik",
   "kepemilikan": "pribadi",
   "kredit": "layak"
 }, {
   "name": "Joko",
-  "penghasilan": "4",
+  "penghasilan": ">3x angsuran",
   "pekerjaan": "wiraswasta",
   "sikap": "bermasalah",
   "kepemilikan": "kontrak",
   "kredit": "tidak layak"
 }, {
   "name": "Kurnia",
-  "penghasilan": "1",
+  "penghasilan": "<3x angsuran",
   "pekerjaan": "honorer",
   "sikap": "berkelakuan baik",
   "kepemilikan": "kontrak",
   "kredit": "tidak layak"
 }, {
   "name": "Lukman",
-  "penghasilan": "2",
+  "penghasilan": "<3x angsuran",
   "pekerjaan": "karyawan tetap",
   "sikap": "bermasalah",
   "kepemilikan": "pribadi",
   "kredit": "tidak layak"
 }, {
   "name": "Mery",
-  "penghasilan": "2",
+  "penghasilan": "<3x angsuran",
   "pekerjaan": "karyawan tetap",
   "sikap": "bermasalah",
   "kepemilikan": "kontrak",
   "kredit": "tidak layak"
 }, {
   "name": "Nugi",
-  "penghasilan": "1",
+  "penghasilan": "<3x angsuran",
   "pekerjaan": "wiraswasta",
   "sikap": "bermasalah",
   "kepemilikan": "pribadi",

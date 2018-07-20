@@ -14,36 +14,44 @@ def getPrediction(data, target, title):
       else:
         temp[info[title]]['layak'] = 0
         temp[info[title]]['tidak_layak'] = 1
-  print(target, title)
-  if title == 'penghasilan':
-    for key in temp:
-      limit = 3
+  # if title == 'penghasilan':
+  #   limit = 3
+  #   print(title)
+  #   print(target[title])
+
+    # if target[title] >= limit:
+    #   print(temp)
+    #   return True
+    # else:
+    #   return False
+    # for key in temp:
+    #   limit = 3
+    #   count_data = 0
+    #   for status in temp[key]:
+    #     count_data += int(temp[key][status])
+    #   if int(key) >= limit:
+    #     for info in temp[key]:
+    #       print(temp)
+    #       if temp[key][info] == count_data:
+    #         return info
+    #       else:
+    #         isPredict = False
+    #   else:
+    #     for info in temp[key]:
+    #       if temp[key][info] == count_data:
+    #         return info
+    #       else:
+    #         isPredict = False
+  # else:
+  for key in temp:
+    
+    for info in temp[target[title]]:
       count_data = 0
       for status in temp[key]:
         count_data += int(temp[key][status])
-      if int(key) >= limit:
-        for info in temp[key]:
-          print(temp)
-          if temp[key][info] == count_data:
-            return info
-          else:
-            isPredict = False
+      if temp[target[title]][info] == count_data:
+        return info
       else:
-        for info in temp[key]:
-          if temp[key][info] == count_data:
-            return info
-          else:
-            isPredict = False
-  else:
-   for key in temp:
-     count_data = 0
-     for status in temp[key]:
-       count_data += int(temp[key][status])
-     for info in temp[key]:
-       print(title)
-       if temp[key][info] == count_data:
-         return info
-       else:
-         isPredict = False
+        isPredict = False
   
   return isPredict
