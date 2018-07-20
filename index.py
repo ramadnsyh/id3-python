@@ -1,12 +1,21 @@
 import json
-import entropy
 import gain
 with open('data.json') as json_data:
   data = json.load(json_data)
 
-base_entropy = entropy.getEntropy(data)
-print(base_entropy)
-
+gainArr = []
 for key in data[0].keys():
   if key != 'name' and key != 'kredit':
-    print(gain.getGain(data, key))
+    obj = {}
+    obj['title'] = key
+    obj['gain'] = gain.getGain(data, key)
+    gainArr.append(obj)
+
+print(gainArr)
+def findMaxValue(arr):
+  value = arr[0]
+  for i in range(1, len(arr)):
+    if value['gain'] < arr[i]['gain']:
+      value = arr[i]
+  return value
+print(findMaxValue(gainArr))

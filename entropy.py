@@ -15,4 +15,15 @@ def getEntropy(data):
   return total_entryopy
 
 def collection(data):
-  return 'hello'
+  total_entropy = 0
+  total_data = 0
+  total_key = 0
+  ## GET TOTAL COUNT
+  for key in data:
+    total_data += data[key]['count']
+  for key in data:
+    total_key = data[key]['count']
+    for info in data[key]['kredit']:
+      total_entropy += (( -1 * data[key]['kredit'][info] / total_key ) * (log(data[key]['kredit'][info] / total_key, 2)))
+    total_entropy *= total_key / total_data
+  return total_entropy

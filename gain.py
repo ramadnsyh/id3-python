@@ -45,5 +45,5 @@ def getGain(data, collection):
         else:
           getCollectionKeys[info[collection]]['kredit']['layak'] = 0
           getCollectionKeys[info[collection]]['kredit']['tidak_layak'] = 1
-  print(entropy.collection(getCollectionKeys))
-  return getCollectionKeys
+  gain = entropy.getEntropy(data) - entropy.collection(getCollectionKeys)
+  return gain
